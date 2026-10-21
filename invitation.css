@@ -1,0 +1,171 @@
+
+:root{--ink:#51412d;--gold:#a27b40;--paper:#fcf8ef}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:25px}body{margin:0;background:var(--paper);color:var(--ink);font-family:Jost,Arial,sans-serif}button,a{-webkit-tap-highlight-color:transparent;touch-action:manipulation}a:focus-visible,button:focus-visible{outline:3px solid #986d32;outline-offset:6px}#main{position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 20%,#fffdf7,#f1e6d2)}.hero{min-height:100svh;position:relative;display:grid;place-items:center;text-align:center;padding:95px 24px 120px;background:radial-gradient(ellipse,#fffdf7e8 20%,#faf3e294 65%,#dfcca8aa)}.hero:before,.hero:after{content:"";position:absolute;inset:22px;border:1px solid #b99a5f;pointer-events:none}.hero:after{inset:30px;border-color:#cbb68c80}.hero-content{position:relative;z-index:2}.hero h1{font:400 clamp(80px,11vw,146px)/.82 'Cormorant Garamond',Georgia,serif;letter-spacing:-.055em;margin:34px 0}.hero h1 em{display:block;font-size:.46em;font-weight:400;line-height:1.45;color:var(--gold)}.eyebrow{font-size:9px;letter-spacing:.27em;line-height:1.9;color:#8b724c}.royal-crest{border:1px solid #ba9c66;border-radius:50%;width:75px;height:90px;display:grid;place-items:center;margin:0 auto 28px;box-shadow:0 0 0 5px #faf5e8,0 0 0 6px #d7c59f;font:20px Georgia;color:#9c773e}.ornament{color:var(--gold);font-size:25px}.hero-date{margin:30px auto 20px;padding:15px 5px;border-block:1px solid #c6ab78;width:max-content;font-size:10px;letter-spacing:.24em}.hero-quote{font:italic 25px 'Cormorant Garamond',Georgia,serif;color:#96794d}.scroll{position:absolute;bottom:48px;z-index:3;text-decoration:none;color:#8d7046;font-size:9px;letter-spacing:.22em}.scroll span{display:block;margin-top:10px;font-size:22px}.botanical{position:absolute;width:clamp(210px,34vw,470px);pointer-events:none;opacity:.85;z-index:1}.botanical.left{left:-80px;top:-80px;transform:rotate(-10deg)}.botanical.right{right:-90px;bottom:-120px;transform:rotate(170deg)}.intro{text-align:center;padding:110px 24px;position:relative;background:#fffbf3;border-block:1px solid #d9c8a7}.section-flourish{color:var(--gold);font-size:25px;letter-spacing:.4em;margin-bottom:25px}h2{font:400 clamp(48px,7vw,80px)/1.05 'Cormorant Garamond',Georgia,serif;letter-spacing:-.035em;margin:20px 0}.intro p{font:italic 25px/1.5 'Cormorant Garamond',Georgia,serif;color:#947b58;max-width:490px;margin:20px auto 0}.events-section{padding:100px 25px 120px;position:relative;background-image:linear-gradient(#faf5e9d9,#f4ead8ee),url('luxury-florals.webp');background-size:auto,650px}.events-heading{text-align:center;margin-bottom:60px}.events-heading:before{content:'❦';display:block;font-size:40px;color:var(--gold);margin-bottom:20px}.events-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px;max-width:1080px;margin:auto}.event{position:relative;display:flex;flex-direction:column;padding:40px;background:linear-gradient(125deg,#fffdf7,#f8f0e1);border:1px solid #bc9c63;box-shadow:0 16px 38px #63421e10}.event:before{content:"";position:absolute;inset:9px;border:1px solid #d9c7a4;pointer-events:none}.event:after{content:"";position:absolute;right:0;top:0;width:160px;height:190px;background:url('luxury-florals.webp') center/cover;opacity:.14;pointer-events:none}.event>*{position:relative;z-index:1}.event-corner-mark{display:none}.event-top{display:flex;justify-content:space-between;gap:12px;color:#9a7c4e;font-size:9px;letter-spacing:.13em;line-height:1.7}.event h3{font:400 clamp(38px,4.5vw,56px)/.98 'Cormorant Garamond',Georgia,serif;letter-spacing:-.03em;margin:34px 0 22px;max-width:300px}.event-rule{width:60px;height:1px;background:#b7965c;margin-bottom:25px}.event-info{display:grid;grid-template-columns:.75fr 1.25fr;gap:20px}.event-info small{display:block;font-size:8px;letter-spacing:.18em;color:#9a825f;margin-bottom:8px}.event-info strong{font:500 20px/1.2 'Cormorant Garamond',Georgia,serif}.dress{font-size:9px;letter-spacing:.15em;padding:10px 12px;border:1px solid #d7c398;background:#eadbb844;margin-top:24px;align-self:flex-start}.event-note{font:italic 22px/1.25 'Cormorant Garamond',Georgia,serif;color:#937951;margin:24px 0}.event a{margin-top:auto;display:flex;justify-content:space-between;gap:12px;padding:16px 0 6px;border-bottom:1px solid #b49766;color:#775b32;text-decoration:none;font-size:9px;letter-spacing:.17em;min-height:44px}.event a span{font-size:17px}.muhurtham-feature{background:linear-gradient(130deg,#fff9e8,#eee0bf);box-shadow:0 0 0 4px #c6a56a22,0 18px 38px #63421e15}.ending{text-align:center;background:#514431;color:#faf0da;padding:100px 24px 110px;position:relative}.ending:before{content:"";position:absolute;inset:18px;border:1px solid #be9e6266;pointer-events:none}.ending .eyebrow{color:#d4bc91}.ending h2{font-size:clamp(80px,11vw,130px)}.ending p{font:italic 24px 'Cormorant Garamond',Georgia,serif;color:#ddcbaa}.monogram{font:italic 36px 'Cormorant Garamond',Georgia,serif;border:1px solid #ad8b55;border-radius:50%;width:100px;height:100px;display:grid;place-items:center;margin:40px auto 0;color:#dec398}.muhurtham-countdown{margin:24px 0 0;padding:20px 10px;border:1px solid #c5aa74;text-align:center;background:#fffaf0a0}.count-label{font-size:8px;letter-spacing:.14em;color:#94703b}.count-date{font:15px Georgia;margin:10px 0 18px}.count-units{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}.count-unit{border-left:1px solid #d9c59d}.count-unit:first-child{border:0}.count-number{font:32px 'Cormorant Garamond',Georgia,serif;font-variant-numeric:tabular-nums;color:#89632c}.count-name{font-size:8px;text-transform:uppercase;letter-spacing:.08em;margin-top:5px}.count-complete{font:24px Georgia;padding:15px}.petals{position:fixed;inset:0;z-index:5;pointer-events:none;overflow:hidden;visibility:hidden}body.opened .petals{visibility:visible}.rose-petal{position:absolute;top:-50px;width:15px;height:23px;border-radius:85% 15% 75% 25%;background:radial-gradient(ellipse at 25% 20%,#fff5e9,#dcada1 60%,#b97c70);opacity:0;animation:fall var(--duration) linear var(--delay) infinite;animation-play-state:paused}body.opened .rose-petal{animation-play-state:running}@keyframes fall{0%{opacity:0;transform:translate3d(0,-40px,0) rotate(0)}10%{opacity:.65}85%{opacity:.5}100%{opacity:0;transform:translate3d(var(--drift),110vh,0) rotate(480deg)}}.reveal{opacity:1}.motion-ready .reveal{opacity:0;transform:translateY(28px);transition:opacity 1s ease,transform 1s ease}.motion-ready .reveal.in-view{opacity:1;transform:none}@media(max-width:680px){.events-grid{grid-template-columns:1fr}.events-section{padding:75px 18px 90px}.event{padding:32px 28px}.hero{padding:100px 24px 120px}.hero h1{font-size:clamp(74px,20vw,106px)}.hero:before{inset:12px}.hero:after{inset:19px}.botanical.left{left:-105px;top:-70px}.botanical.right{right:-110px;bottom:-70px}.hero .eyebrow{font-size:8px;letter-spacing:.2em}.intro{padding:85px 30px}.event-info strong{font-size:20px}.events-heading{margin-bottom:38px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.motion-ready .reveal{opacity:1;transform:none}.petals{display:none}}
+
+
+#main{opacity:0;visibility:hidden;transition:opacity .65s ease!important}
+#main.visible{opacity:1;visibility:visible}
+#intro{position:fixed;inset:0;z-index:9999;background:#cbb294;overflow:hidden;transition:opacity .7s ease,visibility .7s ease}
+#intro.hide{opacity:0;visibility:hidden;pointer-events:none}
+#intro video,#intro .poster{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center;background:#b7a083}
+#intro video{opacity:0}#intro.playing video{opacity:1}#intro.playing .poster{opacity:0}
+#intro .poster{background-image:url('Raveena_Nikhil_Portrait_Invitation_Cover.jpg');background-size:contain;background-position:center;background-repeat:no-repeat}
+#startSeal{position:absolute;left:50%;top:52%;transform:translate(-50%,-50%);width:clamp(64px,19vw,112px);height:clamp(64px,19vw,112px);border:0;background:transparent;border-radius:50%;z-index:4;cursor:pointer;touch-action:manipulation}
+#intro.playing #startSeal,#intro.playing .hint{display:none}
+#intro .hint{position:absolute;bottom:max(6%,env(safe-area-inset-bottom));left:0;right:0;text-align:center;color:#fff9e8;font-size:12px;letter-spacing:.22em;text-shadow:0 1px 12px #452b1a;pointer-events:none}
+#intro .skip{display:none;position:absolute;right:16px;top:max(16px,env(safe-area-inset-top));z-index:5;background:#392b2280;color:#fff;border:1px solid #fff7;border-radius:24px;padding:10px 17px}
+#intro.playing .skip{display:block}
+@media(min-aspect-ratio:9/16){#intro video,#intro .poster{object-fit:contain}#startSeal{top:52%;width:clamp(50px,11vh,112px);height:clamp(50px,11vh,112px)}}
+
+/* V2: mobile-visible premium prompt; no skip */
+#intro .hint{bottom:max(12%,calc(env(safe-area-inset-bottom) + 44px));left:50%;right:auto;width:max-content;max-width:calc(100% - 28px);transform:translateX(-50%);padding:13px 18px;border-radius:50px;background:linear-gradient(120deg,rgba(255,247,225,.94),rgba(237,215,173,.94));border:1px solid rgba(153,106,42,.65);box-shadow:0 4px 24px rgba(54,32,12,.26),inset 0 1px 0 rgba(255,255,255,.85);color:#69421e;font-size:clamp(10px,2.9vw,13px);font-weight:700;letter-spacing:.095em;line-height:1.5;text-shadow:none;white-space:normal;animation:sealHintPulse 2s ease-in-out infinite;will-change:opacity,transform;}
+@keyframes sealHintPulse{0%,100%{opacity:1;transform:translateX(-50%) scale(1)}50%{opacity:.70;transform:translateX(-50%) scale(1.045)}}
+@media(prefers-reduced-motion:reduce){#intro .hint{animation:none}}
+#intro .skip,#skipIntro{display:none!important}
+
+/* V3 — edge-to-edge portrait intro and warm illuminated wax seal */
+html,body{margin:0;min-height:100%;}
+#intro{inset:0;width:100%;height:100%;height:100dvh;background:#b7a083;}
+/* Fill narrow mobile viewports; the cinematic source is portrait 9:16. */
+@media(max-width:767px){
+ #intro video,#intro .poster{object-fit:cover;object-position:center center;background-size:cover;background-position:center center;}
+ #intro .poster{background-size:cover;}
+}
+/* Champagne glints: scattered light with no circular overlay. */
+#startSeal{isolation:isolate;overflow:visible;box-shadow:none;background:transparent}
+#startSeal::before,#startSeal::after{content:none!important;display:none!important}
+.seal-jewels{position:absolute;inset:-5%;pointer-events:none}
+.seal-jewels i{position:absolute;width:7px;height:7px;opacity:.2;background:radial-gradient(circle,#fffdf1 0 13%,#ffe7a6 24%,transparent 68%);animation:jewelGlint 4.8s ease-in-out infinite}
+.seal-jewels i::before,.seal-jewels i::after{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:linear-gradient(transparent,#fff2c2,transparent);width:1px;height:15px}
+.seal-jewels i::after{transform:translate(-50%,-50%) rotate(90deg);height:10px}
+.seal-jewels i:nth-child(1){left:20%;top:5%;animation-delay:-.5s}
+.seal-jewels i:nth-child(2){right:4%;top:28%;animation-delay:-2.7s}
+.seal-jewels i:nth-child(3){right:14%;bottom:12%;animation-delay:-1.5s}
+.seal-jewels i:nth-child(4){left:6%;bottom:25%;animation-delay:-3.8s}
+.seal-jewels i:nth-child(5){left:55%;top:0%;width:4px;height:4px;animation-delay:-3s}
+.seal-jewels i:nth-child(6){right:0%;top:62%;width:4px;height:4px;animation-delay:-.9s}
+@keyframes jewelGlint{0%,35%,100%{opacity:.12;transform:scale(.65) rotate(-12deg)}52%{opacity:.95;transform:scale(1.08) rotate(0)}70%{opacity:.2;transform:scale(.8) rotate(12deg)}}
+@media(prefers-reduced-motion:reduce){.seal-jewels i{animation:none;opacity:.55}}
+
+
+/* Natural garden florals and bespoke heraldic monogram. */
+.royal-crest{width:150px;height:165px;margin:0 auto 24px;border:0;border-radius:0;box-shadow:none;background:none}
+.royal-crest img{display:block;width:100%;height:100%;filter:drop-shadow(0 4px 5px #8c682018)}
+.botanical{width:clamp(260px,32vw,450px);opacity:.95}
+.botanical.left{left:-28px;top:-45px;transform:rotate(-6deg)}
+.botanical.right{right:-28px;bottom:-75px;transform:rotate(174deg)}
+.event:after{width:180px;height:230px;background-size:contain;background-repeat:no-repeat;opacity:.12}
+.events-section{background-image:linear-gradient(#faf5e9ed,#f4ead8f5),url('luxury-florals.webp');background-size:auto,650px}
+@media(max-width:680px){.royal-crest{width:126px;height:139px}.botanical{width:260px}.botanical.left{left:-90px;top:-40px}.botanical.right{right:-90px;bottom:-60px}.hero-content{max-width:100%}}
+
+/* Clearer dates on celebration cards. */
+.event-top{align-items:center;flex-wrap:wrap}
+.event-top span:last-child{font-size:13px;font-weight:500;letter-spacing:.09em;color:#806036;line-height:1.6}
+@media(max-width:380px){.event-top span:last-child{font-size:12px;letter-spacing:.06em}}
+
+/* A fuller constellation of champagne glints around the wax seal. */
+.seal-jewels{inset:-8%}
+.seal-jewels i{margin:-3px 0 0 -3px;background:radial-gradient(circle,#fffef3 0 16%,#ffe7a0 28%,#eec27155 45%,transparent 72%);filter:drop-shadow(0 0 3px #ffd47c);animation:sealConstellation 3.4s ease-in-out infinite}
+.seal-jewels i::before{height:var(--ray,15px);background:linear-gradient(transparent,#fff7d8 40%,#ffdf91 55%,transparent)}
+.seal-jewels i::after{height:calc(var(--ray,15px) * .7)}
+@keyframes sealConstellation{0%,100%{opacity:.3;transform:scale(.7) rotate(-12deg)}45%{opacity:1;transform:scale(1.25) rotate(0deg)}70%{opacity:.6;transform:scale(.9) rotate(12deg)}}
+@media(prefers-reduced-motion:reduce){.seal-jewels i{animation:none;opacity:.8}}
+
+/* Illuminated heirloom crest for the closing invitation. */
+.ending .closing-crest{display:block;width:200px;height:220px;border:0;border-radius:0;box-shadow:none;margin:40px auto 0;background:radial-gradient(ellipse,#d4ac6130,transparent 68%)}
+.closing-crest img{width:100%;height:100%;display:block;filter:drop-shadow(0 2px 1px #24190d80) drop-shadow(0 0 16px #e5bc6530)}
+@media(max-width:680px){.ending .closing-crest{width:180px;height:198px}}
+
+/* Bespoke editorial refinement. */
+.hero{background:radial-gradient(ellipse at 50% 40%,#fffdf8 15%,#faf3e5 65%,#e8d9bb)}
+.hero-content{padding:10px 0 20px}.hero .eyebrow{letter-spacing:.3em}.hero-quote{font-size:27px}
+.royal-crest{width:160px;height:176px;margin-bottom:28px}
+.events-section{padding-top:115px;padding-bottom:130px}
+.events-heading .eyebrow{letter-spacing:.32em}.events-heading h2{margin-top:18px}
+.events-grid{gap:38px;max-width:1120px}
+.event{padding:46px 42px 38px;box-shadow:0 18px 44px #60421e0c;background:linear-gradient(125deg,#fffef9,#faf4e8)}
+.event:before{inset:12px;border-color:#d9c5a08c}
+.event-top{padding-right:0;align-items:baseline;gap:14px}
+.event-top span:first-child{font-size:8px;letter-spacing:.2em;color:#aa9472}
+.event-top span:last-child{font-size:14px;letter-spacing:.1em;color:#79592f}
+.event-corner-mark{display:block;position:relative!important;order:0;font-size:31px;color:#b2935b;margin:22px 0 -17px;line-height:1}
+.event h3{font-size:clamp(42px,4.7vw,60px);line-height:1.03;margin:28px 0 22px;max-width:350px}
+.event-rule{width:76px;background:linear-gradient(90deg,#b49258,#ddcba8,transparent);margin-bottom:27px}
+.event-info{grid-template-columns:.7fr 1.3fr;gap:24px;padding-bottom:6px}
+.event-info small{font-size:8px;letter-spacing:.2em}.event-info strong{font-size:22px;line-height:1.25}
+.dress{background:transparent;border:0;border-left:2px solid #c0a06a;padding:3px 0 3px 12px;color:#8a6b3d}
+.event-note{font-size:23px;line-height:1.4;margin:24px 0 28px;max-width:340px}
+.event a{font-size:9px;letter-spacing:.15em;padding-bottom:12px;transition:color .3s,border-color .3s}
+.event a:hover{color:#a07b3e;border-color:#8b652b}
+.muhurtham-feature{border-color:#ad8847;background:radial-gradient(ellipse at 50% 10%,#fffdf3,#f3e5c8);box-shadow:0 0 0 4px #d7bb7c22,0 20px 50px #79562915}
+.muhurtham-feature:before{border-color:#cbb178}.muhurtham-feature h3{color:#7c592c}
+.muhurtham-countdown{margin-top:24px;padding:24px 12px 22px;background:linear-gradient(135deg,#fffaf0e8,#f4e8cc);border-color:#c7a96a;position:relative}
+.muhurtham-countdown:before{content:"";position:absolute;inset:5px;border:1px solid #ddcca980;pointer-events:none}
+.count-ornament{font-size:26px;color:#b39154;margin-bottom:12px}
+.count-label{font-size:8px;letter-spacing:.19em}.count-date{font:italic 16px 'Cormorant Garamond',Georgia,serif;margin:10px 0 21px}
+.count-number{font-size:40px;line-height:1;color:#805e2e}.count-name{font-size:8px;margin-top:8px;letter-spacing:.12em}.count-unit{border-color:#c9ac7050}
+.ending{background:radial-gradient(ellipse at 50% 55%,#5c4832,#35291f 85%);padding:115px 24px 130px}
+.ending:before{inset:22px;border-color:#c3a16b70}.ending:after{content:"";position:absolute;inset:30px;border:1px solid #c3a16b25;pointer-events:none}
+.ending h2{color:#f7ebd1;letter-spacing:-.04em;text-shadow:0 2px 18px #d5ab5a12}.ending p{color:#cdb996;font-size:25px}
+.ending .closing-crest{width:220px;height:242px;margin-top:48px}
+.rose-petal{opacity:0}.rose-petal:nth-child(n+11){display:none}
+.motion-ready .reveal{transition:opacity 1.25s ease,transform 1.25s cubic-bezier(.2,.7,.2,1);transform:translateY(20px)}
+.motion-ready .reveal.in-view{transform:none}
+@media(max-width:680px){.royal-crest{width:136px;height:150px}.hero .eyebrow{letter-spacing:.2em}.events-section{padding:85px 18px 100px}.events-grid{gap:30px}.event{padding:37px 29px 32px}.event h3{font-size:46px}.event-top span:last-child{font-size:13px}.event-info{gap:16px}.event-info strong{font-size:21px}.ending{padding:95px 24px 110px}.ending .closing-crest{width:195px;height:215px}}
+@media(prefers-reduced-motion:reduce){.motion-ready .reveal{transform:none;transition:none}}
+
+.event-top{order:-1}.event-corner-mark{margin:24px 0 0}.event h3{margin-top:20px}
+
+/* A visible, language-independent scroll invitation, above mobile browser chrome. */
+.scroll{bottom:35px;display:flex;flex-direction:column;align-items:center;gap:5px;color:#795a31;min-height:76px}
+.scroll .scroll-label{font:500 10px/1.6 Jost,Arial,sans-serif;letter-spacing:.18em;margin:0}
+.scroll .scroll-chevron{font-size:19px;line-height:1;margin:0}
+.swipe-cue{width:33px;height:38px;overflow:visible}
+.swipe-hand{animation:inviteSwipe 2.8s ease-in-out infinite}
+.swipe-arrow{animation:inviteArrow 2.8s ease-in-out infinite}
+@keyframes inviteSwipe{0%,20%,100%{transform:translateY(3px);opacity:.65}55%,75%{transform:translateY(-5px);opacity:1}}
+@keyframes inviteArrow{0%,20%,100%{opacity:.45}55%,75%{opacity:1}}
+@media(max-width:680px){
+ .hero{min-height:100svh;padding:42px 24px 30px;display:flex;flex-direction:column;justify-content:center;gap:18px}
+ .hero-content{padding:0;width:100%}
+ .hero .royal-crest{width:110px;height:121px;margin:0 auto 18px}
+ .hero h1{font-size:clamp(68px,18vw,88px);margin:23px 0}
+ .hero .ornament{font-size:22px;margin-bottom:12px}
+ .hero-date{margin:20px auto 14px;padding:12px 5px}
+ .hero-quote{font-size:23px}
+ .hero .scroll{position:relative;bottom:auto;left:auto;right:auto;margin:0 auto 10px;flex-shrink:0;z-index:3}
+ .hero .scroll-label{font-size:10px;letter-spacing:.13em}
+}
+@media(max-width:680px) and (max-height:730px){.hero{padding-top:32px;gap:13px}.hero .royal-crest{width:92px;height:101px;margin-bottom:14px}.hero h1{font-size:clamp(64px,17vw,78px);margin:18px 0}.hero-date{margin-top:15px}.hero-quote{font-size:21px}.swipe-cue{height:32px}}
+@media(prefers-reduced-motion:reduce){.swipe-hand,.swipe-arrow{animation:none}}
+
+/* Explicit hand gesture alongside the scroll wording. */
+.scroll-prompt{display:flex!important;align-items:center;justify-content:center;gap:12px;margin:0!important}
+.scroll .swipe-hand-visible{display:inline-block;font:38px/1 Georgia,serif;color:#9c7034;margin:0;animation:clearSwipe 1.9s ease-in-out infinite;transform-origin:center;filter:drop-shadow(0 2px 1px #fff6da)}
+.scroll .swipe-direction{display:inline-block;font-size:26px;line-height:1;margin:0;color:#a27b40}
+@keyframes clearSwipe{0%,100%{transform:translateY(5px);opacity:.75}55%{transform:translateY(-7px);opacity:1}}
+.cocktail-event{position:relative}.event .cocktail-art{position:absolute;right:25px;top:87px;width:112px;height:126px;object-fit:contain;z-index:2;pointer-events:none;filter:drop-shadow(0 3px 4px #a27a3512)}
+.cocktail-event h3{max-width:calc(100% - 108px);font-size:clamp(38px,4.2vw,54px)}
+@media(max-width:680px){.hero .scroll{min-height:65px;margin-top:8px}.scroll-prompt{gap:9px}.scroll .swipe-hand-visible{font-size:36px}.event .cocktail-art{right:21px;top:90px;width:95px;height:112px}.cocktail-event h3{max-width:calc(100% - 90px);font-size:42px}}
+@media(max-width:360px){.scroll .scroll-label{font-size:9px;letter-spacing:.07em}.event .cocktail-art{width:80px;right:18px}.cocktail-event h3{font-size:38px}}
+@media(prefers-reduced-motion:reduce){.scroll .swipe-hand-visible{animation:none}}
+
+.event .cocktail-art{width:116px;height:154px;top:86px;right:24px}.cocktail-event h3{max-width:calc(100% - 112px)}
+@media(max-width:680px){.event .cocktail-art{width:100px;height:142px;top:92px;right:20px}.cocktail-event h3{max-width:calc(100% - 94px)}}
+@media(max-width:360px){.event .cocktail-art{width:85px;height:128px;right:17px}.cocktail-event h3{max-width:calc(100% - 80px)}}
+
+.scroll-motion-arrow{display:block;color:#96703c;animation:celebrationArrow 2s ease-in-out infinite}.scroll{gap:8px}.hero .scroll{min-height:65px}@keyframes celebrationArrow{0%,100%{transform:translateY(-4px);opacity:.65}50%{transform:translateY(5px);opacity:1}}@media(prefers-reduced-motion:reduce){.scroll-motion-arrow{animation:none}}
+
+/* Approved event artwork, embedded for dependable mobile delivery. */
+.event .event-art{display:block;position:absolute;right:25px;top:100px;width:132px;height:auto;background-repeat:no-repeat;z-index:2;pointer-events:none;border-radius:5px;box-shadow:0 2px 9px #8e6d2e0a}
+.illustrated-event h3{max-width:calc(100% - 126px);font-size:clamp(37px,4.2vw,53px);min-height:104px;display:flex;align-items:center}
+.event .carnival-art{border:1px solid #c3a46a;border-radius:5px;box-shadow:0 3px 10px #63431915}
+@media(max-width:680px){.event .event-art{right:21px;top:102px;width:111px}.illustrated-event h3{max-width:calc(100% - 106px);font-size:39px;min-height:103px}.event .carnival-art{width:112px}}
+@media(max-width:360px){.event .event-art{right:18px;width:93px;top:110px}.illustrated-event h3{max-width:calc(100% - 88px);font-size:34px;min-height:104px}.event .carnival-art{width:94px}}
+
+/* Keep every event illustration compact, beside the title, like the cocktail duo. */
+.event .event-art{position:absolute!important;right:20px!important;top:105px!important;width:100px!important;max-width:29%!important;height:auto!important;display:block!important;box-shadow:none!important;border-radius:3px}
+.illustrated-event{position:relative}
+.illustrated-event h3{max-width:calc(100% - 102px);min-height:0;display:block;font-size:clamp(37px,4.2vw,53px);margin-top:20px;margin-bottom:24px}
+.event .carnival-art{border:1px solid #c3a46a80}
+@media(max-width:680px){.event .event-art{top:105px!important;width:100px!important;right:20px!important}.illustrated-event h3{max-width:calc(100% - 98px);font-size:39px;min-height:98px;display:flex;align-items:center}.event .event-art:not(.carnival-art){margin-top:13px}}
+@media(max-width:360px){.event .event-art{width:84px!important;right:17px!important}.illustrated-event h3{max-width:calc(100% - 83px);font-size:34px}}
